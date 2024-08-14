@@ -1,11 +1,8 @@
 __pycache__
 *.pyc
 venv
-test_db.db
 tests
 build/
 dist/
 output/
 main.spec
-google-cloud-sdk
-_internal/
