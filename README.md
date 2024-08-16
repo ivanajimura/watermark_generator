@@ -42,5 +42,5 @@ Contributions are welcome! If you find a bug or have a feature request, please o
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Author
-Created by [Ivana Jimura](https://github.com/ivanajimura).  
+Created by [Ivan Ajimura](https://github.com/ivanajimura).  
 Connect with me on [GitHub](https://github.com/ivanajimura) and [LinkedIn](https://www.linkedin.com/in/ivanajimura/).
