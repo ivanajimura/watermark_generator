@@ -9,3 +9,5 @@ output/
 main.spec
 google-cloud-sdk
 _internal/
+cloud*
+

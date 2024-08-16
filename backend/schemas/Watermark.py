@@ -1,6 +1,11 @@
 from pydantic import BaseModel, Field
 
 class CreateTextWatermark(BaseModel):
+    """Input needed for text watermark
+
+    Args:
+        BaseModel (pydantic.BaseModel): Pydantic BaseModel to support creation of objects
+    """    
     text_watermark: str = Field(default = "", description = "Text to add to the image.")
     watermark_orientation: int = Field(default = 0, description = "Angle to rotate the watermark. 0 means horizontal, 90 means vertical top to bottom, 270 means vertical bottom to top")
     text_size: int = Field(default = 20, description = "Font size of the watermark")

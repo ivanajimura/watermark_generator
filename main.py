@@ -1,8 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
 from backend.core.config import settings
-
-
 from backend.apis.base import api_router
 
 
@@ -28,4 +26,4 @@ def start_application() -> FastAPI:
 app: FastAPI = start_application()
 
 if __name__ == "__main__":
-    uvicorn.run(app=app, host="0.0.0.0", port=8000, reload=False)
+    uvicorn.run(app=app, host="0.0.0.0", port=settings.PORT, reload=False)
